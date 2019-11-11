@@ -72,6 +72,24 @@ body {
 	line-height: 1.8em;
 	padding-left: 10px;
 }
+#articleR a {
+	color: #00A0E9;
+	text-decoration: none;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+}
+#articleR a:hover {
+	color: #F00;
+	border-bottom-style: solid;
+}
+.articleStep {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	font-weight: bolder;
+	color: #FFF;
+	background-color: #00A0E9;
+	margin-right: 5px;
+}
 
 /*footer 相關*/
 #footer {
@@ -170,11 +188,11 @@ h1 {
 	padding-bottom: 25px;
 }
 h2 {
+	font-size: 16px;
+	color: #F00;
 	border-left-width: 5px;
 	border-left-style: solid;
 	border-left-color: #F00;
-	font-size: 16px;
-	color: #F00;
 	margin-top: 15px;
 	margin-bottom: 20px;
 	padding-left: 10px;
